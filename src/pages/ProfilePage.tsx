@@ -1,9 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import {
-  User, Mail, Shield, TrendingUp, ArrowUpRight, ArrowDownRight,
-  History, Award, Calendar, Loader2, Edit2, Save
-} from 'lucide-react'
+import { User, Mail, Shield, TrendingUp, ArrowUpRight, ArrowDownRight, History, Award, Calendar, Loader2, FileEdit as Edit2, Save } from 'lucide-react'
 import { useAuthStore } from '../store'
 import { formatNumber, formatUSD, timeAgo } from '../lib/utils'
 import { getTransactions, getGameHistory, updateUsername } from '../lib/api'
